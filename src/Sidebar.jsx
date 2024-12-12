@@ -73,8 +73,8 @@ function Sidebar() {
             </li>
             <li className="flex items-center p-2 text-white rounded-lg  hover:bg-teal-300 bg-teal-100  bg-teal-500">
               <Link to="/b">
-                B{" "}
-                <a className="text-lg text-teal-100">- Carousel , Accordian</a>
+              B 
+                <a className="text-lg text-teal-100"> - Carousel , Accordian</a>
               </Link>
             </li>
             <li className="flex items-center p-2 text-white rounded-lg hover:bg-teal-300 bg-teal-100  bg-teal-500 ">
@@ -84,7 +84,12 @@ function Sidebar() {
             </li>
             <li className="flex items-center p-2 text-white rounded-lg hover:bg-teal-300 bg-teal-100  bg-teal-500 ">
               <Link to="/d">
-                D <a className="text-lg text-teal-100">- Swiper</a>
+                D <a className="text-lg text-teal-100">- Swiper(cube)</a>
+              </Link>
+            </li>
+            <li className="flex items-center p-2 text-white rounded-lg hover:bg-teal-300 bg-teal-100  bg-teal-500 ">
+              <Link to="/e">
+                E <a className="text-lg text-teal-100">- Swiper(keyboard)</a>
               </Link>
             </li>
           </ul>

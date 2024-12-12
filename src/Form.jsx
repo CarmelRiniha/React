@@ -53,8 +53,8 @@ function Form({ handlechange, formdata, setFormdata ,setIsRegistered}) {
   }
   function pwfn(e) {
     const value = e.target.value;
-    const passwordRegex = /^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$ %^&*-]).{6,10}$/;
-    let b = passwordRegex.test(value);
+    const passwordRegex = /^(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{6,10}$/;
+ let b = passwordRegex.test(value);
     if (!b) {
       setPassErr(true);
     } else {

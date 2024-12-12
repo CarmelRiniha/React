@@ -6,9 +6,8 @@ import Pageone from "./Pageone";
 import Pagefour from "./Pagefour";
 import { useState } from "react";
 import {  Routes, Route } from "react-router-dom";
+import Pagefive from "./Pagefive";
 
-
-// import Pageone from "./Pageone";
 function App() {
   const [isRegistered, setIsRegistered] = useState(false);
   const [formdata, setFormdata] = useState({
@@ -39,6 +38,7 @@ function App() {
          <Route path="/b" element={<Pagetwo setIsRegistered={setIsRegistered}/>} />
          <Route path="/c" element={<Pagethree setIsRegistered={setIsRegistered}/>} />
          <Route path="/d" element={<Pagefour setIsRegistered={setIsRegistered}/>} />
+         <Route path="/e" element={<Pagefive setIsRegistered={setIsRegistered}/>} />
      </Routes>
       
          ) : (

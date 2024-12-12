@@ -6,7 +6,7 @@ import App from "./App.jsx";
 import "./fontAwesomeConfig";
 import { register } from "swiper/element/bundle";
 import { ThemeProvider } from "@material-tailwind/react";
-// import Pagetwo from "./Pagetwo.jsx";
+
 register();
 
 createRoot(document.getElementById("root")).render(
